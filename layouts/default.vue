@@ -9,17 +9,19 @@
 export default {}
 </script>
 
-<style>
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+<style scoped>
 .container {
   width: 1200px;
   height: 100vh;
   margin: 0 auto;
   background: #f1f1f1;
+}
+</style>
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .fade-enter-active,
 .fade-leave-active {

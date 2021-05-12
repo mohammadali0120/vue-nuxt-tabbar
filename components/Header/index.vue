@@ -37,7 +37,7 @@ export default {
 .header {
   width: 100%;
   background: #111;
-  padding: 9px 0;
+  padding: 15px 0;
   &__items {
     width: 100%;
     &-link {

@@ -46,12 +46,6 @@ export const mutations = {
       this.$router.push('/posts')
     }, 100)
   },
-  activeTab(state, payload) {
-    state.activeTab = payload
-  },
-  deactiveTab(state) {
-    state.activeTab = -1
-  },
 }
 export const actions = {
   addNewTab({ commit }, payload) {
@@ -59,11 +53,5 @@ export const actions = {
   },
   removeTab({ commit }, payload) {
     commit('removeTab', payload)
-  },
-  activeTab({ commit }, payload) {
-    commit('activeTab', payload)
-  },
-  deactiveTab({ commit }) {
-    commit('deactiveTab')
   },
 }
